@@ -25,21 +25,21 @@
 
 @interface CSVParser : NSObject
 {
-	NSString *csvString;
-	NSString *separator;
-	NSScanner *scanner;
-	BOOL hasHeader;
-	NSMutableArray *fieldNames;
-	id receiver;
-	SEL receiverSelector;
-	NSCharacterSet *endTextCharacterSet;
-	BOOL separatorIsSingleChar;
+	NSString *_csvString;
+	NSString *_separator;
+	NSScanner *_scanner;
+	BOOL _hasHeader;
+	NSMutableArray *_fieldNames;
+	id _receiver;
+	SEL _receiverSelector;
+	NSCharacterSet *_endTextCharacterSet;
+	BOOL _separatorIsSingleChar;
 }
 
 - (id)initWithString:(NSString *)aCSVString
-    separator:(NSString *)aSeparatorString
-    hasHeader:(BOOL)header
-    fieldNames:(NSArray *)names;
+           separator:(NSString *)aSeparatorString
+           hasHeader:(BOOL)header
+          fieldNames:(NSArray *)names;
 
 - (NSArray *)arrayOfParsedRows;
 - (void)parseRowsForReceiver:(id)aReceiver selector:(SEL)aSelector;
