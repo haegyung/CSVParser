@@ -1,0 +1,2 @@
+This is Matt Gallagher implementation of CSV Parser, descripbed in his article ""
+Code was converted to ARC. Import headers are for iOS now.
