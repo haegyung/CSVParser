@@ -19,6 +19,8 @@
 		8EBA98D618CAEC18004472BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBA98BE18CAEC18004472BF /* UIKit.framework */; };
 		8EBA98DE18CAEC18004472BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EBA98DC18CAEC18004472BF /* InfoPlist.strings */; };
 		8EBA98E018CAEC18004472BF /* CSVParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA98DF18CAEC18004472BF /* CSVParserTests.m */; };
+		8EBA98EA18CAECB7004472BF /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 8EBA98E918CAECB7004472BF /* README.mdown */; };
+		8EBA98ED18CAED11004472BF /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA98EC18CAED11004472BF /* CSVParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		8EBA98DB18CAEC18004472BF /* CSVParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSVParserTests-Info.plist"; sourceTree = "<group>"; };
 		8EBA98DD18CAEC18004472BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8EBA98DF18CAEC18004472BF /* CSVParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSVParserTests.m; sourceTree = "<group>"; };
+		8EBA98E918CAECB7004472BF /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
+		8EBA98EB18CAED11004472BF /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		8EBA98EC18CAED11004472BF /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		8EBA98AE18CAEC18004472BF = {
 			isa = PBXGroup;
 			children = (
+				8EBA98E918CAECB7004472BF /* README.mdown */,
 				8EBA98C018CAEC18004472BF /* CSVParser */,
 				8EBA98D918CAEC18004472BF /* CSVParserTests */,
 				8EBA98B918CAEC18004472BF /* Frameworks */,
@@ -107,6 +113,8 @@
 		8EBA98C018CAEC18004472BF /* CSVParser */ = {
 			isa = PBXGroup;
 			children = (
+				8EBA98EB18CAED11004472BF /* CSVParser.h */,
+				8EBA98EC18CAED11004472BF /* CSVParser.m */,
 				8EBA98C918CAEC18004472BF /* AppDelegate.h */,
 				8EBA98CA18CAEC18004472BF /* AppDelegate.m */,
 				8EBA98CC18CAEC18004472BF /* Images.xcassets */,
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBA98EA18CAECB7004472BF /* README.mdown in Resources */,
 				8EBA98C518CAEC18004472BF /* InfoPlist.strings in Resources */,
 				8EBA98CD18CAEC18004472BF /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EBA98CB18CAEC18004472BF /* AppDelegate.m in Sources */,
+				8EBA98ED18CAED11004472BF /* CSVParser.m in Sources */,
 				8EBA98C718CAEC18004472BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +451,7 @@
 				8EBA98E518CAEC18004472BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EBA98E618CAEC18004472BF /* Build configuration list for PBXNativeTarget "CSVParserTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +460,7 @@
 				8EBA98E818CAEC18004472BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
